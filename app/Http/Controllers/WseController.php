@@ -10,7 +10,7 @@ use Illuminate\Support\Facades\Http;
 class WseController extends Controller
 {
     protected $marketStack = 'http://api.marketstack.com/v1';
-    protected $appKeyStack = 'efc3197f8bb33316f8f86ee941e4ddf5';
+    protected $appKeyStack = 'a7ec15eb5ea23f4520a14aaad2cbbb29';
     function __construct(){
 
     }
