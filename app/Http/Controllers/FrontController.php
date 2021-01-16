@@ -8,7 +8,7 @@ use Illuminate\Support\Facades\Http;
 
 class FrontController extends Controller
 {
-    protected $marketStack = 'http://api.marketstack.com/v1/eod?access_key=efc3197f8bb33316f8f86ee941e4ddf5';
+    protected $marketStack = 'http://api.marketstack.com/v1/eod?access_key=a7ec15eb5ea23f4520a14aaad2cbbb29';
     protected function changeApiLink($change){
         return $this->marketStack . $change;
     }
